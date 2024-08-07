@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Ubuntu',sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+    a{
+        color: antiquewhite;
+        text-decoration: none;
+        
+    }
+   
+body{
+    background-image: linear-gradient(rgb(186, 186, 174), rgb(69, 62, 62), rgb(12, 7, 7) );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.036),rgba(27, 27, 24, 0.571)),url(Avatar.webp);
+   background-position: center;
+    width: 95%;
+    height: 550px;
+}
+.container:hover{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.036) 40%,transparent),url(Avatar.webp);
+
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 550px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: lowercase;
+}
+ul a{
+    border: 2px solid transparent;
+    color: aqua;
+    
+
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+.content h2{
+    text-transform: uppercase;
+    
+    font-size: 100px;
+    
+}
+.content p{
+    width: 400px;
+    letter-spacing: 2px;
+    border-top: solid 2px rgb(126, 158, 70) ;
+    padding: 20px 0;
+    border-bottom: solid 2px transparent;
+}
+
+
+.content p:hover{
+    border-bottom: 2px solid  rgb(126, 158, 70) ;
+    border-top: transparent;
+   
+}
+.content button{
+    
+    font-size: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.content button:hover{
+    background: transparent;
+    color: white;
+    border: 2px white solid;
+}
+
+
+@media (max-width: 600px){
+    ul{
+        width: 300px;
+      
+        display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+    }
+    ul a{
+        color: chartreuse;
+    }
+
+}
+    
