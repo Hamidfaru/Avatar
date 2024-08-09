@@ -113,6 +113,8 @@ ul a:hover{
     ul a{
         color: chartreuse;
     }
+    .container{
+        width:98%;
 
 }
     
